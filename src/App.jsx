@@ -9,7 +9,8 @@ import ImportConponet from './R003_ImportConponent'
 //import LifecycleEx from './R006_LifeCycleEx'
 //import LifecycleEx from './R007_LifeCycleEx'
 import LifecycleEx from './R008_LifeCycleEx'
-
+import Es6 from './R009_Es6'
+import Variable from './R010_Variable'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <LifecycleEx
         prop_value = 'FromApp.jsx'
         />
+      <Es6 />
+      <Variable />
     </div>
   )
 }
