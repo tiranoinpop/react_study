@@ -17,7 +17,17 @@ class R011_SpreadOperator extends Component {
         console.log('sumLetArr : ' + sumLetArr);
         const [sum1, sum2, ...remain] = sumLetArr;
         console.log('3. sum1 : ' +sum1 + ', sum2 : ' + sum2 + ', remain : ' + remain);
-        
+
+        var varObj1 = {key1:'value1', key2:'value2', key3:'value3'};
+        var varObj2 = {key4:'value4', key5:'value5', key6:'value6'};
+        //javascript Object
+        var sumVarObj = Object.assign({}, varObj1, varObj2);
+        console.log('sumVarObj : ' + JSON.stringify(sumVarObj));
+        //ES6 Object
+        let sumLetObj = {...varObj1, ...varObj2};
+        console.log('sumLetObj : ' + JSON.stringify(sumLetObj));
+        var {key1, key2, ...remainObj} = sumLetObj;
+        console.log('4. key1 : ' +key1 + ', key2 : ' + key2 + ', remainObj : ' + JSON.stringify(remainObj));
     }
 
     render() {
