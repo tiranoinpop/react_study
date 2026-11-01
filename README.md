@@ -18,7 +18,7 @@ npm run dev     # 개발 서버 → http://localhost:5173
 |---|---|
 | `src/App.jsx` | 예제를 불러와 화면에 보여 주는 첫 컴포넌트 |
 | `src/R003_ImportConponent.jsx` | 예제 3 : 컴포넌트 import / export |
-| `src/R004 ~ R007_LifeCycleEx.jsx` | 예제 4~7 : 생명주기 함수 (render, constructor, getDerivedStateFromProps, componentDidMount) |
+| `src/R004 ~ R008_LifeCycleEx.jsx` | 예제 4~8 : 생명주기 함수 (render, constructor, getDerivedStateFromProps, componentDidMount, setState, shouldComponentUpdate) |
 
 ## 책(CRA) ↔ 이 프로젝트(Vite)
 

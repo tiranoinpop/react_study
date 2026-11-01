@@ -7,7 +7,9 @@ import ImportConponet from './R003_ImportConponent'
 //import LifecycleEx from './R004_LifeCycleEx'
 //import LifecycleEx from './R005_LifeCycleEx'
 //import LifecycleEx from './R006_LifeCycleEx'
-import LifecycleEx from './R007_LifeCycleEx'
+//import LifecycleEx from './R007_LifeCycleEx'
+import LifecycleEx from './R008_LifeCycleEx'
+
 
 function App() {
   return (
