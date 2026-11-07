@@ -11,6 +11,11 @@ import ImportConponet from './R003_ImportConponent'
 import LifecycleEx from './R008_LifeCycleEx'
 import Es6 from './R009_Es6'
 import Variable from './R010_Variable'
+import ClassPrototype from './R012_Class&Prototype'
+import ArrowFunc from './R013_ArrowFunction'
+import ForEach from './R014_ForEach'
+import Map from './R015_Map'
+import Jquery from './R016_Jquery'
 
 function App() {
   return (
@@ -23,6 +28,11 @@ function App() {
         />
       <Es6 />
       <Variable />
+      <ClassPrototype/>
+      <ArrowFunc />
+      <ForEach />
+      <Map />
+      <Jquery />
     </div>
   )
 }

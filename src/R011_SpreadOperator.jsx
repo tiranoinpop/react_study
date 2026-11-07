@@ -36,3 +36,4 @@ class R011_SpreadOperator extends Component {
         )
     }
 }
+export default R011_SpreadOperator
